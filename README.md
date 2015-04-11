@@ -1,2 +1,2 @@
 # competition
-Web bsaed programming contest software
+Web based programming contest software
