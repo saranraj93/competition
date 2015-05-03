@@ -1,5 +1,13 @@
-competitionApp = angular.module('competitionApp', ['ui.bootstrap']);
+var app = angular.module('competition', ['ui.bootstrap']);
 
-competitionApp.controller("NavBarController", ['$scope', function($scope){
-    $scope.name = "Hello"
-}]);
+app.controller("MainCtrl", function($scope){
+    $scope.name = "World";
+});
+
+app.controller('DropdownCtrl', function($scope){
+    $scope.items = [
+        "item",
+        "item2",
+        "item3"
+    ];
+})
